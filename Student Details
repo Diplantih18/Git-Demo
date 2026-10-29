@@ -1,8 +1,19 @@
+Input:
 Name=input("Enter your Name:")
 USN=input("Enter your USN:")
 Email=input("Enter Your Email:")
 Mobile=(input("Enter Your Number:"))
-print(Name)
-print(USN)
-print(Email)
-print(Mobile)
+print("Student Name is:",Name)
+print("Student USN is:",USN)
+print("Student Email is:",Email)
+print("Student Email is:",Mobile)
+
+Output:
+Enter your Name:Diganth Poojary
+Enter your USN:MT26AI126
+Enter Your Email:diganth.poojary178@gmail.com
+Enter Your Number:8169397419
+Student Name is: Diganth Poojary
+Student USN is: MT26AI126
+Student Email is: diganth.poojary178@gmail.com
+Student Email is: 8169397419
