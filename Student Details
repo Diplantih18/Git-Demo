@@ -1,0 +1,8 @@
+Name=input("Enter your Name:")
+USN=input("Enter your USN:")
+Email=input("Enter Your Email:")
+Mobile=(input("Enter Your Number:"))
+print(Name)
+print(USN)
+print(Email)
+print(Mobile)
