@@ -1,0 +1,64 @@
+Input:
+# Read Name, USN, 3 courses, and 3 Marks
+print("Enter a StudentName, USN, 3 Courses and 3 Marks")
+name = input("enter a Name: ")
+usn = input(" Enter a USN: ")
+
+# total_courses = int(input("Enter number of courses: "))
+
+course1 = input("Enter a course 1:")
+course2 = input("Enter a course 2:")
+course3 = input("Enter a course 3:")
+
+marks1 = int(input("Enter a Marks1: "))
+marks2 = int(input("Enter a Marks2: "))
+marks3 = int(input("Enter a Marks3: "))
+
+# Calculate total and avg
+total = marks1 + marks2 + marks3
+avg = (total) / 3
+
+# Display  in the format 
+
+print("*" * 50)
+print(f"Name is {name}")
+print("*" * 50)
+print(f"USN is {usn}")
+print("*" * 50)
+print("COURSES\t\tMARKS")
+print("*" * 50)
+print(f"{course1}\t\t{marks1}")
+print(f"{course2}\t\t{marks2}")
+print(f"{course3}\t\t{marks3}")
+print("*" * 50)
+print(f"TOTAL\t\t{total}")
+print(f"AVERAGE\t\t{avg}")
+print("*" * 50)
+
+
+
+
+Output:
+Enter a StudentName, USN, 3 Courses and 3 Marks
+enter a Name: Diganth Poojary
+ Enter a USN: MT26AI126
+Enter a course 1:Maths
+Enter a course 2:Physics
+Enter a course 3:Modern Computing And Python Programming
+Enter a Marks1: 18
+Enter a Marks2: 18
+Enter a Marks3: 20
+**************************************************
+Name is Diganth Poojary
+**************************************************
+USN is MT26AI126
+**************************************************
+COURSES         MARKS
+**************************************************
+Maths           18
+Physics         18
+Modern Computing And Python Programming         20
+**************************************************
+TOTAL           56
+AVERAGE         18.666666666666668
+**************************************************
