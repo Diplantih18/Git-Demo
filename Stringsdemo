@@ -1,0 +1,41 @@
+Input:
+#Collection of Character is known as Strings
+# 0  1  2  3  4  5
+# P  Y  T  H  O  N
+#-6 -5 -4 -3 -2 -1
+#(Start:End:)
+f=input("Enter a string:")
+print("f[1:5]   =", f[1:5])       #Index 1 to 4
+print("f[:6]    =", f[:6])        #As there is no 6th digit it will print the whole word
+print("f[1:]    =", f[1:])        #As the 1 state the starting point expect the first one
+print("f[:2]    =", f[:2])        #As the 2 state the upto 2 points in it as it is written after :
+print("f[:]     =", f[:])         #whole string
+print("f[1:20]  =", f[1:20])      #It will print from 1 to 20,but as 20 digit not present it will print till there in string
+print("f[-1]    =", f[-1])        #It will print the last alphabet of the string
+print("f[-6]    =", f[-6])        #It will print the last alphabet from the last starting i.e the first one in the word
+#print("f[-20]   =", f[-20])       #It will throw error as the -20 digit is not present in the sting {IndexError: string index out of range}
+print("f[-1:-20]=", f[-1:-20])    #As -1 is there but -20 is not present, it will print nothing(Blank)
+print("f[-2:]   =", f[-2:])       #As -2 is given it will print the last two i.e -2 & -1 rest last is not defined so it won't
+print("f[:-2]   =", f[:-2])      #As last is defined as -2 it will print -6,-5,-4,-3
+print("f[-5:-2] =", f[-5:-2])    #As first and last is defined it will print -5 to -3 except -2
+
+
+
+
+
+
+
+Output:
+Enter a string:PYTHON
+f[1:5]   = YTHO
+f[:6]    = PYTHON
+f[1:]    = YTHON
+f[:2]    = PY
+f[:]     = PYTHON
+f[1:20]  = YTHON
+f[-1]    = N
+f[-6]    = P
+f[-1:-20]= 
+f[-2:]   = ON
+f[:-2]   = PYTH
+f[-5:-2] = YTH
