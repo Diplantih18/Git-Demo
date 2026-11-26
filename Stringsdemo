@@ -25,6 +25,29 @@ print("f[-5:-2] =", f[-5:-2])    #As first and last is defined it will print -5 
 
 
 
+
+#Built In Function and Methods in Strings:-
+s="the world is beautiful"
+print(s.upper())                   #This will print string s in upper case
+print(s.lower())                   #This will print string s in lower case
+print(s.capitalize())              #This will print starting letter of the string s in capital else all same
+print(s.title())                   #This will print all starting letter as capital in the string s 
+print ("The World Is Beautiful".swapcase()) #This will swap as the capital letter to small and small to capital in the given sentence with print
+
+
+a="He is my Best friend"
+print(a.count("e"))                #This will count and tell the point in which e is present
+print(a.find("my"))                #This will count and tell the point in which my is present in the string
+print(a.find("mine"))              #As mine is not there in the string it will be unable to find it so it will print-1 {-1 if not found}
+print(a.index("best"))             #This will count and tell the point in which he best is present in the string s
+
+
+
+
+
+
+
+
 Output:
 Enter a string:PYTHON
 f[1:5]   = YTHO
